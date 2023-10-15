@@ -1,0 +1,214 @@
+/* chrome-extension://images.squarespace-cdn.com/content/v1/62b399cb31b6a4290b56a607/0e0f9779-4b39-410a-afae-43e043f09669/purrfectmatch_logo-horizontal_color.png?format=1500w
+chrome-extension://images.squarespace-cdn.com/content/v1/62b399cb31b6a4290b56a607/55a2390d-011b-4949-9099-06a00829bf73/purrfectmatch_logo-vertical_color.png?format=1500w
+https://images.squarespace-cdn.com/content/v1/62b399cb31b6a4290b56a607/0319589b-15fd-4c40-8939-e55543f64d9b/pexels-peng-louis-3073690.jpg
+https://images.squarespace-cdn.com/content/v1/62b399cb31b6a4290b56a607/1660797316404-OHYMNA9CB7EXEYXKRYF6/donate.jpg?format=750w
+https://images.squarespace-cdn.com/content/v1/62b399cb31b6a4290b56a607/1660796592246-VRP4EPJW2EOJ34MW8ENE/luku-muffin-7mv1m9g0ahw-unsplash.jpg?format=750w
+https://images.squarespace-cdn.com/content/v1/62b399cb31b6a4290b56a607/1660796285645-CB827VY1DOFBS8O8PQDS/oleg-ivanov-aXjA04RgmNo-unsplash.jpg?format=500w
+https://images.squarespace-cdn.com/content/v1/62b399cb31b6a4290b56a607/1660796366986-Z455MMWSDZFHDHH6SHVZ/chewy-w8C_d0lhxZ8-unsplash.jpg?format=500w
+https://images.squarespace-cdn.com/content/v1/62b399cb31b6a4290b56a607/c129d3aa-d59c-442a-bf20-63e46a25332a/meow-house-icon.png
+https://images.squarespace-cdn.com/content/v1/62b399cb31b6a4290b56a607/abb51158-e173-4d03-9aed-d5a6a533d774/Cold+Nose+logo.png
+https://widgets.guidestar.org/TransparencySeal/7607341*/
+body {
+    text-align: center;
+}
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+
+/* ----------------------TITLE------------------- */
+.logo-image {
+    width: 400px;
+    height: 150px;
+}
+
+#title .container-fluid {
+    padding: 2% 5% 3%;
+    ;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.donate-section {
+    margin: auto;
+
+}
+
+.donate-link {
+    font-size: 1.5rem;
+}
+
+.donate-button {
+    margin-left: 5px;
+}
+
+.cat-image {
+
+    background-position: center bottom  10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/62b399cb31b6a4290b56a607/0319589b-15fd-4c40-8939-e55543f64d9b/pexels-peng-louis-3073690.jpg');
+    margin-bottom: 1%;
+}
+
+.Big-heading {
+    font-family: "Arvo";
+    font-size: 4rem;
+    color: #533B7B;
+    font-weight: 900;
+    /* padding: 4%; */
+    text-align: center;
+    
+}
+
+/* ----------------------DESCRIPTION------------------- */
+
+#description {
+    padding: 2% 15%;
+}
+
+.sub-heading {
+    font-family: "Arvo";
+    color: #533B7B;
+    font-weight: 900;
+    margin: 5% 0;
+}
+
+p {
+    line-height: 1.4;
+    font-size: 1.1rem;
+}
+
+.description-donate-button {
+    margin: 3% auto;
+    width: 240px;
+    border-radius: 0;
+    background-color: #533B7B;
+    height: 60px;
+}
+
+.description-learnmore-button {
+    margin: 3% auto;
+    width: 240px;
+    border-radius: 0;
+    background-color: #fff;
+    height: 60px;
+}
+
+.description-readblog-button {
+    margin: 2% auto 3%;
+    width: 240px;
+    border-radius: 0;
+    background-color: #533B7B;
+    height: 60px;
+    color: #fff;
+}
+
+.sub-description2 {
+    background-color: #C79288;
+    margin: 6% -25%;
+}
+
+.sub-description2-heading {
+    font-family: "Arvo";
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 900;
+    padding-top: 2.5%;
+    text-align: center;
+}
+
+.sub-description2 p {
+    color: #fff;
+    margin: 0;
+}
+
+.sub-description3 {
+    margin: 3% -25%;
+    color: #533B7B;
+}
+
+.sub-description3-heading {
+    font-family: "Arvo";
+    font-size: 3rem;
+    color: #533B7B;
+    font-weight: 900;
+    text-align: center;
+}
+
+.sub-description3 p {
+   
+}
+
+/* ----------------------DESCRIPTION------------------- */
+.testimonial-container {
+background-color: #533B7B;
+padding-left: 50px;
+}
+.testimonial-heading {
+    font-family: "Arvo";
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 900;
+    padding: 2.5%;
+    text-align: center;
+}
+
+
+.carousel-inner {
+    padding: 1rem;
+}
+.carousel-item {
+    margin: 0 .5rem;
+}
+.cards-wrapper {
+    display: flex;
+    overflow-x: auto;
+}
+   .card {
+   min-width: calc(100%/3.5);
+    margin: 0.5rem;
+    padding: 5px;
+}
+    .card-image {
+max-width: 100%;
+width: 266px;
+height: 483px;
+max-height: 100%;
+border-radius: 100%;
+        }
+      
+     .image-wrapper {
+    height: 22vw;
+}
+.testimonial-buttons {
+    background-color: #533B7B;
+    padding: 12px 26px;
+}
+.card-body h5{
+    color: #533B7B;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width:550px){
+    .cards-wrapper {
+        display: block;
+       
+    }
+    .card {
+        min-width: calc(100%/1);
+       
+     }
+     .testimonial-container {
+        
+        padding-right: 70px;
+        }
+
+
+}
+
+
+
